@@ -1,6 +1,7 @@
 const sendBtn = document.querySelector(".email-btn");
 const errorMsg = document.querySelector(".error-msg");
 
+
 const inputEl = document.querySelector(".input-field");
 
 const emailValidation = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
