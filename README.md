@@ -5,9 +5,9 @@
 
 <div align="center">
 
-[Live](https://catherineisonline.github.io/fylo-dark-theme-landing-page-frontendmentor/)
-| [Solution](https://www.frontendmentor.io/solutions/fylo-dark-theme-landing-page-97wbDcVX8)
-| [Challenge](https://www.frontendmentor.io/challenges/fylo-dark-theme-landing-page-5ca5f2d21e82137ec91a50fd)
+[Live]
+| [Solution]
+| [Challenge]
 
 Solution for a challenge from [frontendmentor.io](https://www.frontendmentor.io/)
 
