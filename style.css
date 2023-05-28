@@ -499,7 +499,7 @@ footer {
 .lists {
   flex-direction: column;
   gap: 1rem;
-  width: 6rem;
+  max-width: 6rem;
 }
 
 
@@ -558,7 +558,7 @@ footer {
     font-size: 1.2;
   }
 }
-@media(max-width: 1110px) {
+@media(max-width: 1250px) {
   .intro-section {
     width: 85%;
   }
