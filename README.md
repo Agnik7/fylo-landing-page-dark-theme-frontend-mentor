@@ -1,4 +1,4 @@
-![The Fylo dark theme landing page](https://github.com/Agnik7/fylo-dark-theme-frontend-mentor/blob/main/images/project-preview.png?raw=true)
+![The Fylo dark theme landing page](https://github.com/Agnik7/fylo-dark-theme-frontend-mentor/blob/main/design/desktop-preview.png?raw=true)
 
 
 <h1 align="center">The Fylo dark theme landing page</h1>
