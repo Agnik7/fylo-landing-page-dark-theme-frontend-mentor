@@ -10,7 +10,12 @@
   --cyan: hsl(176, 68%, 64%);
   --blue: hsl(198, 60%, 50%);
   --error: hsl(0, 100%, 63%);
+  --black: hsl(0, 0%, 0%);
   --white: hsl(0, 0%, 100%);
+  --light: #d8dbe0;
+  --dark: #28292c;
+  --link: rgb(27, 129, 112);
+  --link-hover: rgb(24, 94, 82);
 }
 
 * {
@@ -44,6 +49,72 @@ body::-webkit-scrollbar-thumb {
   background-color: rgb(71, 71, 80);
   border-radius: 20px;
 }
+.theme-change{
+  position: absolute;
+  top: 0%;
+  right: 3%;
+  margin: 1rem;
+}
+.toggle-switch {
+  position: relative;
+  width: 7.14rem;
+  height: 50px;
+  transform: scale(0.5);
+  
+}
+
+.switch-label {
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  background-color: var(--dark);
+  border-radius: 25px;
+  cursor: pointer;
+  outline: none;
+}
+
+.checkbox {
+  position: absolute;
+  display: none;
+}
+
+.slider {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.checkbox:checked ~ .slider {
+  background-color: var(--light);
+}
+
+.slider::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  -webkit-box-shadow: inset 12px -4px 0px 0px var(--light);
+  box-shadow: inset 12px -4px 0px 0px var(--light);
+  background-color: var(--dark);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.checkbox:checked ~ .slider::before {
+  -webkit-transform: translateX(50px);
+  -ms-transform: translateX(50px);
+  transform: translateX(50px);
+  background-color: var(--dark);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
 a {
   text-decoration: none;
   cursor: pointer;
@@ -97,8 +168,6 @@ nav {
 .menu li {
   cursor: pointer;
 }
-
-/* Intro */
 .intro {
   text-align: center;
   background-color: var(--dark-blue);
@@ -218,7 +287,6 @@ nav {
 
 .productive-link a {
   font-size: 1.26rem;
-
   color: var(--cyan);
 }
 
