@@ -680,6 +680,7 @@ footer {
 @media screen and (max-width: 500px){
   .menu{
     flex-direction: column;
+    background-color: red;
   }
 }
 @media screen and (max-width: 490px) {
