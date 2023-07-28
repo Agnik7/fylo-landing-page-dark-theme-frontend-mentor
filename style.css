@@ -682,6 +682,9 @@ footer {
     flex-direction: column;
     background-color: red;
   }
+  nav{
+    flex-direction: column;
+  }
 }
 @media screen and (max-width: 490px) {
   .error-msg {
