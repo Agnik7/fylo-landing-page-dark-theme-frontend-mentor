@@ -677,7 +677,11 @@ footer {
     width: 1rem;
   }
 }
-
+@media screen and (max-width: 500px){
+  .menu{
+    flex-direction: column;
+  }
+}
 @media screen and (max-width: 490px) {
   .error-msg {
     left: -45%;
