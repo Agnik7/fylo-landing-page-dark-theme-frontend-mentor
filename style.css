@@ -684,6 +684,7 @@ footer {
   }
   nav{
     flex-direction: column;
+    background-color: yellow;
   }
 }
 @media screen and (max-width: 490px) {
